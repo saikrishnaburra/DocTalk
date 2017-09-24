@@ -15,6 +15,7 @@
 		876A45761F76169900D9874A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876A45741F76169900D9874A /* LaunchScreen.storyboard */; };
 		876A45811F76169900D9874A /* DocTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A45801F76169900D9874A /* DocTalkTests.swift */; };
 		876A458C1F76169900D9874A /* DocTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A458B1F76169900D9874A /* DocTalkUITests.swift */; };
+		876A459C1F76213C00D9874A /* CustCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A459B1F76213C00D9874A /* CustCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		876A45871F76169900D9874A /* DocTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		876A458B1F76169900D9874A /* DocTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTalkUITests.swift; sourceTree = "<group>"; };
 		876A458D1F76169900D9874A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876A459B1F76213C00D9874A /* CustCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				876A45741F76169900D9874A /* LaunchScreen.storyboard */,
 				876A45771F76169900D9874A /* Info.plist */,
 				876A456F1F76169900D9874A /* DocTalk.xcdatamodeld */,
+				876A459B1F76213C00D9874A /* CustCell.swift */,
 			);
 			path = DocTalk;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876A459C1F76213C00D9874A /* CustCell.swift in Sources */,
 				876A456B1F76169900D9874A /* ViewController.swift in Sources */,
 				876A45711F76169900D9874A /* DocTalk.xcdatamodeld in Sources */,
 				876A45691F76169900D9874A /* AppDelegate.swift in Sources */,
@@ -430,12 +434,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7WDJ7KT88S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DocTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apnacomplex.DocTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,12 +451,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7WDJ7KT88S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DocTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apnacomplex.DocTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
